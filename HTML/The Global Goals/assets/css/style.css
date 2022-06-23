@@ -63,3 +63,14 @@ body {
 .center {
     text-align: center;
 }
+
+/* ESTILO DA PÁGINA contato.html */
+
+.container4 {
+    display: flex;
+    justify-content: center;
+}
+
+.margem {
+    margin-left: 30px;
+}
