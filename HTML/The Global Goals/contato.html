@@ -49,23 +49,23 @@
 
                 <label for="nome">Nome:</label>
                 <br>
-                <input type="text" id="nome" onkeyup="validarNome()">
+                <input class="ajustar" type="text" id="nome" onkeyup="validarNome()">
                 <div id="txtNome"></div>
                 <br>
 
                 <label for="email">E-mail:</label>
                 <br>
-                <input type="email" id="email" onkeyup="validarEmail()">
+                <input class="ajustar" type="email" id="email" onkeyup="validarEmail()">
                 <div id="txtEmail"></div>
                 <br>
 
                 <label for="assunto">Assunto:</label>
                 <br>
-                <textarea name="Assunto" id="assunto" cols="40" rows="10" onkeyup="validarAssunto()"></textarea>
+                <textarea class="ajustar" name="Assunto" id="assunto" cols="40" rows="10" onkeyup="validarAssunto()"></textarea>
                 <div id="txtAssunto"></div>
                 <br>
 
-                <button>Enviar</button>
+                <button onclick="enviar()">Enviar</button>
 
             </form>
         </div>
@@ -78,7 +78,7 @@
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.423170447279!2d-47.869577384511494!3d-15.781625396952265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3b4e87faa56b%3A0xabacb79438169e71!2sCasa%20da%20ONU%20-%20Complexo%20S%C3%A9rgio%20Vieira%20de%20Mello!5e0!3m2!1spt-BR!2sbr!4v1656032675928!5m2!1spt-BR!2sbr"
                 width="800" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                referrerpolicy="no-referrer-when-downgrade" id="mapa" onmousemove="mapaZoom()" onmouseout="mapaNormal()"></iframe>
         </div>
 
     </div>

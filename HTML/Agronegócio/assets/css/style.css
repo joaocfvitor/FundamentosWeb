@@ -1,0 +1,47 @@
+.center {
+    margin-top: 150px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-size: 4cm;
+    font-style: unset;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#tm {
+    width: 287px !important;
+    height: 150px !important;
+}
+
+.container-card {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.bg {
+    background-image: url(https://www.guarulhoshoje.com.br/wp-content/uploads/2020/12/Casal-Arara-Azul-Zool%C3%B3gico-Guarulhos_Foto_Fabio-Nunes-Teixeira-36-1536x1022.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+.bg-sobre {
+    background-image: url(https://c.pxhere.com/images/88/94/045e3545262652f0d4f817baa22e-1594714.jpg!d);
+}
+
+#container-footer {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+#tm-footer {
+    width: 50px !important;
+    height: 50px !important;
+}
